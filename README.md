@@ -1,7 +1,7 @@
 # spe-test-challenge
 This is a repo for SPE user interview challenge.
+
 Problem: https://www.codewars.com/kata/54acc128329e634e9a000362/javascript
-Solution file: TCP_FSM.py
 
 
 Hi, my name is Dhiatamayo Fadhlika.
