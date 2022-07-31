@@ -73,7 +73,7 @@ class FSMachine():
             self.state = 'ERROR'
             return self.state
     
-    def process_actions(self, actions=list):
+    def process_actions(self, actions:list):
         loop_index = 0
         while (loop_index < len(actions)):
             self.move_state(actions[loop_index])
@@ -83,7 +83,7 @@ class FSMachine():
         return self.state
 
     
-def main(actions=list):
+def main(actions:list):
     fsm1 = FSMachine()
     return fsm1.process_actions(actions)
 
